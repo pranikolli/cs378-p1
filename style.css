@@ -43,11 +43,12 @@ img {
 
 button {
     font-size: 0.9rem;
-    padding: 0.4rem 2rem;
+    padding: 0.3rem 1.5rem;
     background-color: Silver;
     color: #333;
     border: 1px solid #ddd;
-    border-radius: 50px;
+    border-radius: 25px;
+    text-align: center;
 }
 
 button:hover {
