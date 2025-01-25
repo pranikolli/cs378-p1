@@ -4,6 +4,21 @@ body {
     color: #333;
 }
 
+.title-box .subtitle {
+    font-family: 'Georgia', serif; 
+    font-style: italic;
+    font-size: 1.2rem;
+    color: #c1876b; /* Light brown color */
+    margin-bottom: 0.5rem;
+}
+
+.title-box .tagline {
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;
+    font-size: 2rem; 
+    color: #555555; 
+}
+
 h1 img {
     vertical-align: middle;
     display: inline-block;
@@ -19,21 +34,6 @@ h1 {
 .text-center {
     text-align: center;
 }
-
-.title-box .subtitle {
-    font-family: 'Georgia', serif; 
-    font-style: italic;
-    font-size: 1.2rem;
-    color: #c1876b; /* Light brown color */
-    margin-bottom: 0.5rem;
-}
-
-.title-box .tagline {
-    font-family: 'Arial', sans-serif; 
-    font-weight: bold;
-    font-size: 2rem; 
-    color: #555555; 
-
 img {
     object-fit: cover;
     width: 100%;
