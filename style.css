@@ -42,22 +42,16 @@ img {
 }
 
 .button {
-    font-size: 1rem; /* Adjust font size */
-    width: 100px; /* Fixed width for the pill shape */
-    height: 40px; /* Fixed height for the pill shape */
-    background-color: #f8f9fa;
+    font-size: 0.9rem;
+    padding: 0.4rem 2rem;
+    background-color: Silver;
     color: #333;
     border: 1px solid #ddd;
-    border-radius: 20px; /* Half the height makes it pill-shaped */
-    text-align: center;
-    display: inline-block;
-    line-height: 40px; /* Centers the text vertically */
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional: shadow for depth */
-    cursor: pointer; /* Adds a pointer cursor for hover */
+    border-radius: 50px;
 }
 
 .button:hover {
-    background-color: #FF6600;
+    background-color: Gray;
     color: #fff;
-    border-color: #FF6600;
+    border-color: Gray;
 }
