@@ -1,3 +1,38 @@
 body {
-    color: hotpink;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #FF6600; /* Orange color for the logo */
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+}
+
+button {
+    font-size: 0.9rem;
+    padding: 0.4rem 1rem;
+    background-color: #f8f9fa;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #FF6600;
+    color: #fff;
+    border-color: #FF6600;
 }
