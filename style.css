@@ -41,7 +41,7 @@ img {
     max-height: 120px;
 }
 
-button {
+.button {
     font-size: 0.9rem; /* Text size */
     padding: 0.4rem 2rem; /* Adjust padding for an oval shape */
     background-color: #f8f9fa;
@@ -53,7 +53,7 @@ button {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
-button:hover {
+.button:hover {
     background-color: #FF6600;
     color: #fff;
     border-color: #FF6600;
