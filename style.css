@@ -8,15 +8,15 @@ body {
     font-family: 'Georgia', serif; 
     font-style: italic;
     font-size: 1.2rem;
-    color: #c1876b; /* Light brown color */
+    color: SandyBrown; 
     margin-bottom: 0.5rem;
 }
 
 .title-box .tagline {
     font-family: 'Arial', sans-serif; 
     font-weight: bold;
-    font-size: 2rem; 
-    color: #555555; 
+    font-size: 1.75rem; 
+    color: LightSlateGray; 
 }
 
 h1 img {
@@ -44,14 +44,14 @@ img {
 button {
     font-size: 0.9rem;
     padding: 0.4rem 1rem;
-    background-color: #f8f9fa;
+    background-color: Silver;
     color: #333;
     border: 1px solid #ddd;
     border-radius: 20px;
 }
 
 button:hover {
-    background-color: #FF6600;
+    background-color: Gray;
     color: #fff;
-    border-color: #FF6600;
+    border-color: Gray;
 }
