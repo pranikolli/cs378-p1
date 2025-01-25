@@ -42,17 +42,19 @@ img {
 }
 
 button {
-    font-size: 0.9rem;
-    padding: 0.3rem 1.5rem;
-    background-color: Silver;
+    font-size: 0.9rem; /* Text size */
+    padding: 0.4rem 2rem; /* Adjust padding for an oval shape */
+    background-color: #f8f9fa;
     color: #333;
     border: 1px solid #ddd;
-    border-radius: 25px;
+    border-radius: 50px; /* Makes the button oval */
     text-align: center;
+    display: inline-block;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
 }
 
 button:hover {
-    background-color: Gray;
+    background-color: #FF6600;
     color: #fff;
-    border-color: Gray;
+    border-color: #FF6600;
 }
