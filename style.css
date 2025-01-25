@@ -4,9 +4,20 @@ body {
     color: #333;
 }
 
+h1 img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
 h1 {
+    display: inline-flex;
+    align-items: center;
     font-size: 2.5rem;
     color: DarkOrange;
+}
+
+.text-center {
+    text-align: center;
 }
 
 h2 {
